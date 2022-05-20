@@ -15,7 +15,7 @@ class NewsList(ListView):
     template_name = 'news_list.html'
     # object list
     context_object_name = 'news_list'
-    paginate_by = 3
+    paginate_by = 10
 
     # post list generation
     def get_queryset(self):
